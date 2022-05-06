@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D891BC9273DD6810010725A /* pika-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D891BC8273DD6810010725A /* pika-sound.mp3 */; };
+		943EB876273DAAAC0064AD6B /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EB875273DAAAC0064AD6B /* LevelsViewController.swift */; };
+		943EB878273DB11F0064AD6B /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EB877273DB11E0064AD6B /* TitleViewController.swift */; };
+		A75E6C18273CC624009454CD /* RopeData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A75E6C17273CC624009454CD /* RopeData.plist */; };
+		A75E6C1B273CCB77009454CD /* RopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75E6C19273CCB77009454CD /* RopeNode.swift */; };
+		A75E6C1C273CCB77009454CD /* RopeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75E6C1A273CCB77009454CD /* RopeData.swift */; };
+		F1BF4FD7273CB5F300FB785E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF4FD6273CB5F300FB785E /* AppDelegate.swift */; };
+		F1BF4FDD273CB5F300FB785E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF4FDC273CB5F300FB785E /* GameScene.swift */; };
+		F1BF4FDF273CB5F300FB785E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF4FDE273CB5F300FB785E /* GameViewController.swift */; };
+		F1BF4FE2273CB5F300FB785E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BF4FE0273CB5F300FB785E /* Main.storyboard */; };
+		F1BF4FE4273CB5FB00FB785E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BF4FE3273CB5FB00FB785E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D891BC8273DD6810010725A /* pika-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pika-sound.mp3"; sourceTree = "<group>"; };
+		943EB875273DAAAC0064AD6B /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		943EB877273DB11E0064AD6B /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		A75E6C17273CC624009454CD /* RopeData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RopeData.plist; sourceTree = "<group>"; };
+		A75E6C19273CCB77009454CD /* RopeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RopeNode.swift; sourceTree = "<group>"; };
+		A75E6C1A273CCB77009454CD /* RopeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RopeData.swift; sourceTree = "<group>"; };
+		F1BF4FD3273CB5F300FB785E /* BokeCatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BokeCatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BF4FD6273CB5F300FB785E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1BF4FDC273CB5F300FB785E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F1BF4FDE273CB5F300FB785E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F1BF4FE1273CB5F300FB785E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1BF4FE3273CB5FB00FB785E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BF4FE5273CB5FB00FB785E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BF4FD0273CB5F300FB785E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BF4FCA273CB5F300FB785E = {
+			isa = PBXGroup;
+			children = (
+				F1BF4FD5273CB5F300FB785E /* BokeCatch */,
+				F1BF4FD4273CB5F300FB785E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BF4FD4273CB5F300FB785E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF4FD3273CB5F300FB785E /* BokeCatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BF4FD5273CB5F300FB785E /* BokeCatch */ = {
+			isa = PBXGroup;
+			children = (
+				2D891BC8273DD6810010725A /* pika-sound.mp3 */,
+				F1BF4FD6273CB5F300FB785E /* AppDelegate.swift */,
+				F1BF4FDE273CB5F300FB785E /* GameViewController.swift */,
+				F1BF4FDC273CB5F300FB785E /* GameScene.swift */,
+				A75E6C1A273CCB77009454CD /* RopeData.swift */,
+				A75E6C19273CCB77009454CD /* RopeNode.swift */,
+				F1BF4FE0273CB5F300FB785E /* Main.storyboard */,
+				F1BF4FE3273CB5FB00FB785E /* Assets.xcassets */,
+				F1BF4FE5273CB5FB00FB785E /* Info.plist */,
+				A75E6C17273CC624009454CD /* RopeData.plist */,
+				943EB875273DAAAC0064AD6B /* LevelsViewController.swift */,
+				943EB877273DB11E0064AD6B /* TitleViewController.swift */,
+			);
+			path = BokeCatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BF4FD2273CB5F300FB785E /* BokeCatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BF4FE8273CB5FB00FB785E /* Build configuration list for PBXNativeTarget "BokeCatch" */;
+			buildPhases = (
+				F1BF4FCF273CB5F300FB785E /* Sources */,
+				F1BF4FD0273CB5F300FB785E /* Frameworks */,
+				F1BF4FD1273CB5F300FB785E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BokeCatch;
+			productName = BokeCatch;
+			productReference = F1BF4FD3273CB5F300FB785E /* BokeCatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BF4FCB273CB5F300FB785E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F1BF4FD2273CB5F300FB785E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F1BF4FCE273CB5F300FB785E /* Build configuration list for PBXProject "BokeCatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BF4FCA273CB5F300FB785E;
+			productRefGroup = F1BF4FD4273CB5F300FB785E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BF4FD2273CB5F300FB785E /* BokeCatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BF4FD1273CB5F300FB785E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75E6C18273CC624009454CD /* RopeData.plist in Resources */,
+				F1BF4FE2273CB5F300FB785E /* Main.storyboard in Resources */,
+				F1BF4FE4273CB5FB00FB785E /* Assets.xcassets in Resources */,
+				2D891BC9273DD6810010725A /* pika-sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BF4FCF273CB5F300FB785E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BF4FDD273CB5F300FB785E /* GameScene.swift in Sources */,
+				A75E6C1B273CCB77009454CD /* RopeNode.swift in Sources */,
+				A75E6C1C273CCB77009454CD /* RopeData.swift in Sources */,
+				943EB878273DB11F0064AD6B /* TitleViewController.swift in Sources */,
+				943EB876273DAAAC0064AD6B /* LevelsViewController.swift in Sources */,
+				F1BF4FDF273CB5F300FB785E /* GameViewController.swift in Sources */,
+				F1BF4FD7273CB5F300FB785E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1BF4FE0273CB5F300FB785E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BF4FE1273CB5F300FB785E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1BF4FE6273CB5FB00FB785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1BF4FE7273CB5FB00FB785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BF4FE9273CB5FB00FB785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BokeCatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlawren.BokeCatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1BF4FEA273CB5FB00FB785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BokeCatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlawren.BokeCatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BF4FCE273CB5F300FB785E /* Build configuration list for PBXProject "BokeCatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BF4FE6273CB5FB00FB785E /* Debug */,
+				F1BF4FE7273CB5FB00FB785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BF4FE8273CB5FB00FB785E /* Build configuration list for PBXNativeTarget "BokeCatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BF4FE9273CB5FB00FB785E /* Debug */,
+				F1BF4FEA273CB5FB00FB785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BF4FCB273CB5F300FB785E /* Project object */;
+}
